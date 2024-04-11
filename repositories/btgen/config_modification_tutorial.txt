@@ -1,0 +1,111 @@
+You can modify your "/home/administrator/BTGen/API/deploy/BTGen_Deploy/repositories/btgen/config.txt" using the below keys, formats, and examples.
+Do not modify this file. Modifications in this file will not take effect.
+This file is a tutorial and example. Please edit "/home/administrator/BTGen/API/deploy/BTGen_Deploy/repositories/btgen/config.txt" to really change any settings.
+Remember to split the paths with "\\" rather than "\", and there is no "," before the last "}". 
+
+
+{
+    "path_checkpoints": "/home/administrator/BTGen/API/deploy/BTGen_Deploy/repositories/btgen/models/checkpoints",
+    "path_loras": "/home/administrator/BTGen/API/deploy/BTGen_Deploy/repositories/btgen/models/loras",
+    "path_embeddings": "/home/administrator/BTGen/API/deploy/BTGen_Deploy/repositories/btgen/models/embeddings",
+    "path_vae_approx": "/home/administrator/BTGen/API/deploy/BTGen_Deploy/repositories/btgen/models/vae_approx",
+    "path_upscale_models": "/home/administrator/BTGen/API/deploy/BTGen_Deploy/repositories/btgen/models/upscale_models",
+    "path_inpaint": "/home/administrator/BTGen/API/deploy/BTGen_Deploy/repositories/btgen/models/inpaint",
+    "path_controlnet": "/home/administrator/BTGen/API/deploy/BTGen_Deploy/repositories/btgen/models/controlnet",
+    "path_clip_vision": "/home/administrator/BTGen/API/deploy/BTGen_Deploy/repositories/btgen/models/clip_vision",
+    "path_btgen_expansion": "/home/administrator/BTGen/API/deploy/BTGen_Deploy/repositories/btgen/models/prompt_expansion/btgen_expansion",
+    "path_outputs": "/home/administrator/BTGen/API/deploy/BTGen_Deploy/repositories/btgen/outputs",
+    "default_model": "juggernautXL_v8Rundiffusion.safetensors",
+    "previous_default_models": [
+        "juggernautXL_version8Rundiffusion.safetensors",
+        "juggernautXL_version7Rundiffusion.safetensors",
+        "juggernautXL_v7Rundiffusion.safetensors",
+        "juggernautXL_version6Rundiffusion.safetensors",
+        "juggernautXL_v6Rundiffusion.safetensors"
+    ],
+    "default_refiner": "None",
+    "default_refiner_switch": 0.5,
+    "default_loras": [
+        [
+            "sd_xl_offset_example-lora_1.0.safetensors",
+            0.1
+        ],
+        [
+            "None",
+            1.0
+        ],
+        [
+            "None",
+            1.0
+        ],
+        [
+            "None",
+            1.0
+        ],
+        [
+            "None",
+            1.0
+        ]
+    ],
+    "default_cfg_scale": 4.0,
+    "default_sample_sharpness": 2.0,
+    "default_sampler": "dpmpp_2m_sde_gpu",
+    "default_scheduler": "karras",
+    "default_styles": [
+        "Fooocus V2",
+        "Fooocus Enhance",
+        "Fooocus Sharp"
+    ],
+    "default_prompt1": "",
+    "default_prompt": "",
+    "default_performance": "Speed",
+    "default_advanced_checkbox": false,
+    "default_max_image_number": 32,
+    "default_image_number": 25,
+    "checkpoint_downloads": {
+        "juggernautXL_v8Rundiffusion.safetensors": "https://huggingface.co/lllyasviel/fav_models/resolve/main/fav/juggernautXL_v8Rundiffusion.safetensors"
+    },
+    "lora_downloads": {
+        "sd_xl_offset_example-lora_1.0.safetensors": "https://huggingface.co/stabilityai/stable-diffusion-xl-base-1.0/resolve/main/sd_xl_offset_example-lora_1.0.safetensors"
+    },
+    "embeddings_downloads": {},
+    "available_aspect_ratios": [
+        "704*1408",
+        "704*1344",
+        "768*1344",
+        "768*1280",
+        "832*1216",
+        "832*1152",
+        "896*1152",
+        "896*1088",
+        "960*1088",
+        "960*1024",
+        "1024*1024",
+        "1024*960",
+        "1088*960",
+        "1088*896",
+        "1152*896",
+        "1152*832",
+        "1216*832",
+        "1280*768",
+        "1344*768",
+        "1344*704",
+        "1408*704",
+        "1472*704",
+        "1536*640",
+        "1600*640",
+        "1664*576",
+        "1728*576"
+    ],
+    "default_inpaint_engine_version": "v2.6",
+    "default_cfg_tsnr": 7.0,
+    "default_overwrite_step": -1,
+    "default_overwrite_switch": -1,
+    "example_inpaint_prompts": [
+        "highly detailed face",
+        "detailed girl face",
+        "detailed man face",
+        "detailed hand",
+        "beautiful eyes"
+    ]
+}

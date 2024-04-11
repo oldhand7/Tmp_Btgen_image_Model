@@ -1,0 +1,12 @@
+{
+    "path_checkpoints": "/home/administrator/BTGen/API/BTGen_SD_API_Integrated/repositories/btgen/models/checkpoints",
+    "path_loras": "/home/administrator/BTGen/API/BTGen_SD_API_Integrated/repositories/btgen/models/loras",
+    "path_embeddings": "/home/administrator/BTGen/API/BTGen_SD_API_Integrated/repositories/btgen/models/embeddings",
+    "path_vae_approx": "/home/administrator/BTGen/API/BTGen_SD_API_Integrated/repositories/btgen/models/vae_approx",
+    "path_upscale_models": "/home/administrator/BTGen/API/BTGen_SD_API_Integrated/repositories/btgen/models/upscale_models",
+    "path_inpaint": "/home/administrator/BTGen/API/BTGen_SD_API_Integrated/repositories/btgen/models/inpaint",
+    "path_controlnet": "/home/administrator/BTGen/API/BTGen_SD_API_Integrated/repositories/btgen/models/controlnet",
+    "path_clip_vision": "/home/administrator/BTGen/API/BTGen_SD_API_Integrated/repositories/btgen/models/clip_vision",
+    "path_btgen_expansion": "/home/administrator/BTGen/API/BTGen_SD_API_Integrated/repositories/btgen/models/prompt_expansion/btgen_expansion",
+    "path_outputs": "/home/administrator/BTGen/API/BTGen_SD_API_Integrated/repositories/btgen/outputs"
+}
